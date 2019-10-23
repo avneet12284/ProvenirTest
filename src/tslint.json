@@ -1,0 +1,17 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "provenirTest",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "provenir-test",
+      "kebab-case"
+    ]
+  }
+}
