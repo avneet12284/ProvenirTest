@@ -6,9 +6,9 @@ Instructions to run the project:
 2. Do an npm start to start a dev server
 3. Open a browser and visit http://localhost:4200/
 4. Input the login credentials (username=test; password=test) - no other credentials permitted
-5. You can now see the Provenir Portfolio page at http://localhost:4200/portfolio 
+5. You can now see the Provenir Portfolio page at http://localhost:4200/portfolio after clicking on submit on the login page
 6. Once you hit logout on the portfolio page and try to hit the portfolio page by typing the link 
-   in step 5 in the browser and you'll be asked to login
+   in step 5 in the browser you will be asked to login
 
 Note: Until you logout of the application the portfolio page is freely available including between refreshes and browser restarts
 
