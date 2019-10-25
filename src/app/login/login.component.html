@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Login to Provenir's Portfolio</h1>
+
+  <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm.value)">
+    <input type="text" name="username" placeholder="Enter Username" aria-label="Enter Username" ngModel>
+    <input type="password" name="password" placeholder="Enter Password" aria-label="Enter Password" ngModel>
+    <button type="submit">Submit</button>
+    <div class="error" *ngIf="areCredentialsInvalid">Please enter valid login credentials</div>
+  </form>
+</div>
